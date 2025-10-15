@@ -6,7 +6,7 @@ public class jobtest1 {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Masukan Angka: ");
+        System.out.print("Masukan Angka: ");
         int x = input.nextInt();
 
         if (x % 2 == 0) {
