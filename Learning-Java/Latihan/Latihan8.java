@@ -13,7 +13,7 @@ public class Latihan8 {
         System.out.println("-- Permainan Tebak Angka --");
         while (true) {
             if (hearth > 0) {
-                System.out.print("Nyawa kamu: " + hearth + "\nMasukan angka 1 - 10: ");
+                System.out.print("Nyawa kamu: " + hearth + "\nMasukan angka 0 - 10: ");
                 x = input.nextInt();
 
                 if (x == random) {
