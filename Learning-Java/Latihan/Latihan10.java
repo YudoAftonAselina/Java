@@ -23,7 +23,7 @@ public class Latihan10 {
                 System.out.println("Selamat! Tebakan Anda benar!");
             } else {
                 System.out.println("Salah! Coba lagi.");
-                // Beri petunjuk
+                
                 if (inputUser < tebakan) {
                     System.out.println("Hint: Angka lebih besar dari " + inputUser);
                 } else {
