@@ -4,15 +4,15 @@ import java.util.Scanner;
 
 public class Latihan10 {
     public static void main(String[] args) {
-        int tebakan = 8;
-        int inputUser;
+        int tebakan, inputUser, i;
+        tebakan = (int) (Math.random() * 10);
         boolean tertebak = false;
-        int i = 0;
+        i = 0;
         Scanner sc = new Scanner(System.in);
 
         System.out.println("=== PERMAINAN TEBAK ANGKA ===");
-        System.out.println("Tebak angka antara 1-10");
-        System.out.println("Anda memiliki 5 kesempatan");
+        System.out.println("Tebak angka antara 0 - 10");
+        System.out.println("Anda memiliki 5 nyawa");
 
         while ((i < 5) && (!tertebak)) {
             System.out.print("\nTebakan ke-" + (i + 1) + ": ");
